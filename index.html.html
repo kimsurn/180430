@@ -1,0 +1,131 @@
+
+<!doctype html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<script src="https://use.typekit.net/dcf1ame.js"></script>
+ 	<script>
+ 		try{Typekit.load({ async: true });}catch(e){}
+ 	</script>
+
+ 	<title>
+ 		COLOR OF THE YEAR.
+ 	</title>
+
+	<style>
+
+		body{background: rgb(95,75,139)}
+		footer{background: #570463}
+		h1,p{font-family: "source-han-serif-korean",serif;}
+		h1{font-size:2.5em; line-height:1.5; font-weight: 900; overflow: hidden; color: white; text-align: center;}
+		p{font-size: 0.9em; line-height:1.5; font-weight: 100; overflow: hidden;color: white;}
+		p1{font-size: 0.9em; line-height:1.5; font-weight: 100; overflow: hidden;color: white;}
+
+
+		.black {color: black;}
+
+		.violet {width: 1200px; float: left; margin:0em;}
+		.violet img{width: 1500px; height:600px; float: left; margin-top:4em; padding-left: 0em;}
+
+		.pantone img {width: 1200px; display:block; margin: 0 auto;}
+
+		a:link, a:visited, a: active {color:rgba(0,0,0,0.5;)}
+
+		nav{width: 1200px; float: left; margin:0em 7em; background:rgba(0,0,0,0);}
+		nav #logo {width: 80px; height:80px; background:rgba(0,0,0,0); position: fixed;}
+		nav #logo a{display: block; width:80px;  height:80px; background:rgba(0,0,0,0);}
+		nav #logo a:hover {background:gray; color:purple;}
+		nav .logo:hover { transition-duration: 1.2s; transform: rotateZ(50deg);}
+
+
+		nav #main-nav{ width: 1200px; background:rgba(95,75,139,0); float:left; margin: 0; padding: 0; height: 0px;}
+		nav #main-nav li {float: right; width: 100px; height:80px;  list-style: none; background: }
+		nav #main-nav a{background:white; display: block; background: rgba(95,75,139,0); text-align: center; position: fixed;}
+		nav #main-nav a:hover {background :lightgray; color:red;}
+
+		nav #menu-category {background: white; float:right; margin:0; padding:0; opacity: 0;}
+		nav #main-category li {float:left; width: 100px; opacity: 0;}
+
+		#marquee {margin-top: 8em;}
+
+		.footerlogo{margin:0 auto; display: block; width: 50px;}
+		.footerlogo img {margin:0 auto; display: block; margin-top:3em; width: 50px;}
+
+		#line {width:900px; size: 30; height:35px; float:right; color: black;}
+		#dotted { width: 900px; border: 1px dotted color:#gray; height: 50px;}
+
+	</style>
+
+</head>
+
+<body>
+	<nav>
+		<div id="logo" class="logo">
+			<a href="index.html"> 
+				<img src="./img/pantone.png" style="width: 80px"> 
+			</a>
+		</div>
+		<div id="dotted">
+			<ul id="main-nav">
+				<li class="menu-category">
+					<a href="1"><p>menu 1</p>
+					</a>
+				</li>
+			<li class="menu-category">
+				<a href="2"><p>menu 2</p>
+				</a>
+			</li>
+			<li class="menu-category">
+				<a href="3"><p>menu 3</p>
+				</a>
+			</li>
+			<li class="menu-category">
+				<a href="3"><p>menu 4</p>
+				</a>
+			</li>
+			<li class="menu-category">
+				<a href="3"><p>menu 5</p>
+				</a>
+			</li>
+			
+		</ul>
+		</div>
+	</nav>
+	<div>
+		<div class="violet">
+			<a href="www.naver.com">
+				 <img src="./img/ultraviolet.jpg">
+			</a>
+		</div>
+		<div class="marquee">
+			<marquee behavior="alternate" height="200" loop="50" scrollamount="3" direction="left"><p1>매년 팬톤(PANTONE) 사에서 올해의 컬러를 제안하고 있다.<br> 이 회사에 대해 간단한 설명을 하자면, 컬러를 사용하거나 관련된 업무를 하는 모든 이들에게 컬러를 통한 의사소통을 할 수 있도록 도와주는 곳이다.<br>
+			그리고 '올해의 컬러'로 지정된 컬러는 수 많은 영역의 상품들의 출시에도 영향을 미친다. </p1>
+			</marquee>
+		</div>
+		<div class="marquee">
+			<marquee behavior="slide" height="200" loop="50" scrollamount="5" direction="right"><p1><br>‘컬러’는 단순히 개인의 취향에만 머무는 것이 아니라,<br> 라이프스타일에 깊숙이 들어와 제품 구매에도 영향을 미치는 중요한 요소가 되었다는 것을 단적으로 보여준다. </p1>
+			</marquee>
+		</div>
+
+		<div class="marquee">
+			<marquee behavior="alternate" height="200" loop="50" scrollamount="2" direction="right"><p1> <b>그동안 '올해의 컬러'로 선정됐던 색들을 연도별로 볼 수 있게 간략히 정리해놓은 뒤,<br> 해당 컬러를 모티브로한 제품을 파는 인터넷 몰처럼 만들어볼 생각이다.</b></p1>
+			</marquee>
+		</div>
+	</div>
+
+	<div class="pantone">
+			<img src="./img/pantone1.jpg" >
+	</div>
+	<br><br><br>
+<footer>
+	<br>
+	<div class="footerlogo">
+		<img src="./img/pantone.png">
+		<br><br><br><br><br>
+	</div>
+</footer>
+</body>
+
+</html>
